@@ -3,7 +3,7 @@ time_str = input()
 num = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]
 
 
-def adjusted(time_str, year_month_day = False):
+def adjusted(time_str, year_month_day=False):
     if time_str == 2 and year_month_day == False:
         output = "兩"
     elif time_str <= 10:
